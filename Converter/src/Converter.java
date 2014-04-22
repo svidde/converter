@@ -123,6 +123,7 @@ public class Converter {
 		}
 		if (this.lastGroup.equals("family")) {
 			this.xmlContent.append(closeTagIndentation("family"));
+			this.xmlContent.append(closeTagIndentation("person"));
 		} else if (this.lastGroup.equals("person")){
 			this.xmlContent.append(closeTagIndentation("person"));
 		}
